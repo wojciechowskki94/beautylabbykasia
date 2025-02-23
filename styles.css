@@ -1,0 +1,158 @@
+```css
+/* Resetowanie domyślnych marginesów i paddingów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Podstawowe style dla ciała strony */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F1E6D3; /* Bezowy kolor tła */
+    color: #333; /* Ciemny tekst */
+    line-height: 1.6;
+}
+
+/* Nagłówek */
+header {
+     background-color: #ffffff; /* Białe tło */
+    color: #000000; /* Czarny tekst */
+    padding: 20px 0; /* Odstępy */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    font-size: 30px; /* Rozmiar czcionki */
+    font-family: 'Playfair Display', serif; /* Luksusowa czcionka */
+
+}
+
+header .logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000; /* Czarny kolor linków */
+    text-decoration: none; /* Usunięcie podkreślenia */
+    font-size: 18px; /* Rozmiar czcionki */
+
+}
+
+nav ul li a:hover {
+    color: #D4AF37; /* Złoty kolor na hover */
+}
+
+/* Sekcja O nas */
+#about {
+background-color: #D4AF37; /* Złote tło */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Sekcja Usługi */
+#services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff; /* Białe tło dla usług */
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services ul li {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333; /* Ciemny tekst */
+}
+
+/* Sekcja Zespół */
+#team {
+    background-color: #F1E6D3; /* Bezowy kolor tła */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.team-member {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #D4AF37; /* Złoty kolor tekstu */
+}
+
+/* Galeria */
+#gallery {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff; /* Białe tło */
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #D4AF37; /* Złota ramka */
+}
+
+/* Sekcja Kontakt */
+#contact {
+padding: 50px 20px;
+    text-align: center;
+    background-color: #000; /* Czarny kolor tła */
+    color: white;
+}
+
+footer {
+    background-color: #000; /* Czarny kolor stopki */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #D4AF37; /* Złote linki */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff; /* Zmiana koloru na biały podczas hover */
+}
+```
+
